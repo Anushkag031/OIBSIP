@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    /* border: 13px solid red; */
+   background-color: #ff8381;
+    padding: 55px;
+    height: 900px;
+}
+
+
+.text-center {
+    /* border: 4px solid darkblue; */
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 22px;
+
+    
+}
+
+
+
+
+
+.container {
+    /* border: 4px solid forestgreen; */
+    background-color: #f9ac66;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box black;
+    margin-right: 400px;
+    margin-left: 450px;
+    height: 600px;
+    width: 460px;
+    border-radius: 27px;
+}
+
+
+.row {
+    margin: 6px;
+    padding: 8px;
+    /* border: 3px solid red; */
+    width: 400px;
+}
+
+.row input {
+    /* border: 5px solid violet; */
+    padding:10px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 400px;
+    border: none;
+}
+
+
+.button {
+    padding: 4px;
+    /* border: 4px solid black; */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 24px;
+    height: 62px;
+    width: 62px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+}
+
+.button:hover {
+    color:white;
+    background-color: black;
+}
+
+
+footer{
+    /* border: 3px solid darkblue; */
+    width: 1600px;
+    display: flex;
+    padding: 17px 75px;
+    background:rgba(1, 1, 1, 0.827);
+    margin-left: -56px;
+    margin-top: 99px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+
+footer .social i{
+    /* border: 2px solid darkgoldenrod; */
+    font-size: 28px;
+    margin: 0 3px;
+    margin-top: 9%;
+    cursor: pointer;
+    color: white;
+}
+.social i:hover{
+    color: darkorange;
+    font-size: 38px;
+}
+
+.text{
+    /* border: 2px solid darkgreen; */
+    margin-left: 25%;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+color: white;
+}
+
+
+
+
+
+
