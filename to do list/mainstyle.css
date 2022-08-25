@@ -1,0 +1,133 @@
+body {
+    /* border: 3px solid seagreen; */
+    background-color: #f9ac66;
+    
+}
+
+.navbar-brand {
+    /* border: 3px solid darkgoldenrod; */
+    font-size: 26px;
+    font-style: italic;
+
+}
+
+.text-center {
+    /* border: 3px solid darkgreen; */
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 40px;
+
+}
+
+.form-group label {
+    /* border: 13px solid darkorange; */
+    border: none;
+   font-size: 29px;
+   font-family: 'Oswald', sans-serif;
+font-family: 'Teko', sans-serif;
+letter-spacing: 3px;
+
+}
+.form-control {
+    /* border: 13px solid rgb(255, 181, 20); */
+display: block;
+width: 100%;
+height: calc(1.5em + .75rem + 2px);
+padding: .375rem .75rem;
+font-size: 17px;
+font-weight: 400;
+line-height: 1.9;
+color: #495057;
+background-color:#876d97;
+/* background-clip: padding-box; */
+/* border: 1px solid #03101c; */
+border: none;
+border-radius: .25rem;
+transition: border-color .12s ease-in-out,box-shadow .15s ease-in-out;
+/* border: none; */
+}
+
+
+.aditem {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(34, 41, 41);
+
+
+}
+
+.buttons {
+    /* border: 2px solid darkred; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    padding-top: 15px;
+}
+
+.but1 button {
+    position: relative;
+    top: -8px;
+    left: 7px;
+    background-color: orangered;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13px;
+    height: 30px;
+    width: 91px;
+    padding: 6px;
+    border: 2px white;
+
+}
+
+.but2 button {
+    position: relative;
+    top: -7px;
+    left: 20px;
+    /* background-color:greenyellow; */
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13px;
+    height: 30px;
+    width: 91px;
+    padding: 6px;
+    border: 2px white;
+}
+
+.but1 button:hover {
+    background-color: rgb(227, 241, 240);
+    color: black;
+
+}
+
+.but2 button:hover {
+    background-color: rgb(227, 241, 240);
+    color: black;
+}
+
+#items {
+    margin-top: 19px;
+    /* border: 3px solid darkmagenta; */
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+
+}
+
+h2 {
+    /* border: 3px solid darkcyan; */
+    margin-top: 12px;
+    font-size: 29px;
+}
+
+.tt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+.description{
+    background-color: aqua;
+    width: 40px;
+}

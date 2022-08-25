@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #e5e5fd;
+    background-color: #F7F7F7;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.img img{
+    /* border: 2PX SOLID darkblue; */
+    border-radius:60%;
+    width: 340px;
+    height: 340px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+h1{
+    font-size: 30px;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+h4{
+    text-align: end;
+    font-size: 22px;
+    MARGIN-TOP: 10px;
+}
+
+.about{
+    margin-top: 20px;
+
+}
+h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+p{
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.cr7 img{
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 49px;
+}
+
+
+.about-him{
+    /* border: 3px solid darkmagenta; */
+    margin-top: 20px;
+}
+
+.about-him h3{
+    /* border: 3px solid dodgerblue; */
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.about-him p{
+    /* border: 3px solid darkred; */
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1.2px;}
+
+
+
+.club{
+
+/* border: 3px solid darkmagenta; */
+
+
+}
+
+.club h3{
+    /* border: 3px solid aqua; */
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.club p{
+    /* border: 3px solid darkorchid; */
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+.club h4{
+    text-align: left;
+    /* border: 2px solid darkgoldenrod; */
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.club ul{
+    list-style: none;
+    margin-top: 7px;
+    /* border: 2px solid deeppink; */
+    margin-left: 5px;
+}
+
+.club ul li{
+    /* border: 2px solid darkgreen; */
+    font-size: 24px;
+    font-weight: 200;
+    margin: 2px;
+}
+
+.biography h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+ul{
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+footer{
+    margin: 50px 0px;
+    text-align: end;
+    font-size: 20px;
+    text-decoration: none;
+}
